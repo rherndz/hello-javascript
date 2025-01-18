@@ -99,8 +99,44 @@ let p3 = " ----- " ;
     let p9 = " ----- " ;
     console.log(p9);
 
+    const nevada = true
+    nevada ? console.log("Esta nevando este dia") : console.log("No esta nevando este dia")
+
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
 
     let p10 = " ----- " ;
     console.log(p10);
+
+    let f_año = 2025;
+    let f_edad1 = 2008;
+    let f_edad2 = 2009;
+    
+    let resultado_edad1;
+    let resultado_edad2;
+
+    console.log("-- Edad 1: año  --");
+    resultado_edad1 = f_año - f_edad1;
+
+    console.log(resultado_edad1);
+
+
+    console.log("-- Edad 2: año  --");
+    resultado_edad2 = f_año - f_edad2;
+
+    console.log(resultado_edad2);
+
+    if (resultado_edad1 >= 18 && resultado_edad2 >= 18) {
+        console.log("Los dos pueden pasar, bienvenidos");
+    }else if (resultado_edad1 <= 17 && resultado_edad2 <= 17) {
+        console.log("No pueden pasar, son menores");
+    }else if(resultado_edad1 >= 18 || resultado_edad2 < 18 ){
+        console.log("solo pasa el del año: " + f_edad1);
+    }else if(resultado_edad2 >= 18 || resultado_edad1 < 18 ){
+        console.log("solo pasa el del año: " + f_edad2);
+    }
+
+    
+
+    
+
