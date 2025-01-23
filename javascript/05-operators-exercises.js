@@ -24,7 +24,7 @@
 
 // 3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
     
-let p3 = " ----- " ;
+    let p3 = " ----- " ;
     console.log(p3)
 
     let comp1 = 5 > 2;
