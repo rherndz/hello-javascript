@@ -15,8 +15,6 @@
         console.log(text);
     }
     
-    
-
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 
     console.log(div);
@@ -40,7 +38,6 @@
         console.log("Datos erroneos");
     }
 
-
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
     console.log(div);
@@ -55,8 +52,6 @@
     }else{
         console.log("El numero ingresado es negativo");
     }
-
-
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
@@ -257,7 +252,6 @@
             break;
     }
     
-
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
     console.log(div);
